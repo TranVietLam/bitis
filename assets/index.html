@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="responsive.css">
+<script src="https://kit.fontawesome.com/1415eef467.js" crossorigin="anonymous"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./main.js"></script>
+
+</head>
+<div>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">
+                    <i class="nav-home fa-solid fa-house-chimney"></i>
+                    Home
+                    </a>
+                </li>
+            </ul>
+            <ul class="subnav">
+                <li>
+                    <button class="subnav-btn-sign js-login">Sign-up</button>
+                </li>
+            </ul>
+
+            
+            <div id="mobile-menu" class="mobile-menu-btn js-mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+                <!-- Slider  -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="/img/1.jpg" style="width:100%" class="img-item">
+            </div>
+           
+            <div class="mySlides fade">
+              <img src="/img/slideshow_2.jpg" style="width:100%" class="img">
+            </div>
+           
+        </div>
+          <br>
+           
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(0)"></span> 
+            <span class="dot" onclick="currentSlide(1)"></span> 
+          </div>
+          <!-- Content -->
+          <div data-aos="fade-up" class="content-section">
+              <h1>SHOP MEN'S</h1>
+              <p>Boasting the biggest heel air bag yet, bringing you <br>
+                  even closer to the feeling of walking on air.</p>
+                  <a href="">Shoes</a>
+                  <a href="">Clothing</a>
+                  <a href="">Gear</a>
+          </div>
+
+          <!-- shopping item men -->
+          <div data-aos="fade-up" class="shopping-item">
+            <div class="items-list">
+                <img class="img-items" src="/img/items/bag.jpg" alt="">
+                <div class="items-body">
+                    <p class="name-size">Gear (M)</p>
+                    <p class="name-info">NIKE LEBRON MAX AIR AMBASSADOR</p>
+                    <p class="price">2,249,000 đ</p>
+                    <button>Mua Hàng</button>
+                </div>            
+            </div>
+
+            <div class="items-list">
+                    <img class="img-items" src="/img/items/bag2.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Gear (M)</p>
+                        <p class="name-info">NIKE VAPOR MAX AIR (MEDIUM)</p>
+                        <p class="price">1,999,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+    
+                <div class="items-list">
+                    <img class="img-items" src="/img/items/shirt.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Clothing (M)</p>
+                        <p class="name-info">NEW YORK KNICKS CITY EDITION</p>
+                        <p class="price">919,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+    
+    
+                <div class="items-list">
+                    <img class="img-items" src="/img/items/tanktop.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Clothing (M)</p>
+                        <p class="name-info">KOBE BRYANT ALL-STAR EDITION</p>
+                        <p class="price">2,649,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>            
+            </div>
+                
+
+        <!-- Slider Middle -->
+        <div data-aos="fade-up" class="slides-middle">
+              <img src="/img/slideshow_3.jpg" style="width:100%" class="img-item">
+        </div>
+
+
+        <div data-aos="fade-up" class="content-section-btm">
+            <h1>SHOP WOMEN'S</h1>
+              <p>Our ground-breaking running innovation seven years <br>
+                in the making undergoes new evolution.</p>
+                  <a href="">Shoes</a>
+                  <a href="">Clothing</a>
+        </div>
+
+        <!-- shopping item women -->
+
+        <div data-aos="fade-up" class="shopping-item">
+            <div class="items-list">
+                <img class="img-items" src="/img/wm1.jpg" alt="">
+                <div class="items-body">
+                    <p class="name-size">Clothing (M)</p>
+                    <p class="name-info">NIKE SPORTSWEAR</p>
+                    <p class="price">1,588,000 đ</p>
+                    <button>Mua Hàng</button>
+                </div>            
+            </div>
+
+            <div class="items-list">
+                    <img class="img-items" src="/img/wm2.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Clothing (M)</p>
+                        <p class="name-info">NIKE SPORTSWEAR</p>
+                        <p class="price">2,529,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+    
+                <div class="items-list">
+                    <img class="img-items" src="/img/wm3.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Shoes (W)</p>
+                        <p class="name-info">NIKE LUNARSOLO</p>
+                        <p class="price">2,869,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+    
+    
+                <div class="items-list">
+                    <img class="img-items" src="/img/wm4.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Shoes (W)</p>
+                        <p class="name-info">NIKE AIR HUARACHE</p>
+                        <p class="price">3,449,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+
+        </div>
+            <!-- Slider Under -->
+            <div data-aos="fade-up" class="slides-under">
+                <img src="/img/slideshow_5.jpg" style="width:100%" class="img-item">
+            </div>
+
+
+            <!-- Content Boys -->
+            <div data-aos="fade-up" class="content-section-boys">
+                <h1>SHOP BOY'S</h1>
+                  <p>The Air Max styles kids love—from the ’87 original, Air Max 1, <br>
+                    to the new larger-than-life Air Max 270.</p>
+                      <a href="">Shoes</a>
+                      <a href="">Clothing</a>
+                      <a href="">Gear</a>
+            </div>
+            
+            <!-- shopping item boys -->
+            <div data-aos="fade-up" class="shopping-item">
+                <div class="items-list">
+                    <img class="img-items" src="/img/boy1.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Boys</p>
+                        <p class="name-info">NIKE SPORTSWEAR</p>
+                        <p class="price">1,869,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+    
+                <div class="items-list">
+                        <img class="img-items" src="/img/boy2.jpg" alt="">
+                        <div class="items-body">
+                            <p class="name-size">Boys</p>
+                            <p class="name-info">NIKE STRIKE</p>
+                            <p class="price">749,000 đ</p>
+                            <button>Mua Hàng</button>
+                        </div>            
+                    </div>
+        
+                    <div class="items-list">
+                        <img class="img-items" src="/img/boy3.jpg" alt="">
+                        <div class="items-body">
+                            <p class="name-size">Boys</p>
+                            <p class="name-info">Nike Sportswear Trousers</p>
+                            <p class="price">749,000 đ</p>
+                            <button>Mua Hàng</button>
+                        </div>            
+                    </div>
+        
+        
+                    <div class="items-list">
+                        <img class="img-items" src="/img/boy4.jpg" alt="">
+                        <div class="items-body">
+                            <p class="name-size">Boys</p>
+                            <p class="name-info">NIKE SPORTSWEAR</p>
+                            <p class="price">919,000 đ</p>
+                            <button>Mua Hàng</button>
+                        </div>            
+                    </div>
+    
+                
+                </div>
+
+        <div data-aos="fade-up" class="img-boy-girl">
+            <img src="/img/P3_1_Image-1.jpg" alt="" class="img-bg">
+        </div>
+
+        <!-- Content Girls -->
+        <div data-aos="fade-up" class="content-section-girls">
+            <h1>SHOP GIRL'S</h1>
+              <p>Retro, new or personally customised, <br>
+                get the Air Max that’s right for you.</p>
+                  <a href="">Shoes</a>
+                  <a href="">Clothing</a>
+                  <a href="">Gear</a>
+        </div>
+
+        <!-- shopping item girls -->
+        <div data-aos="fade-up" class="shopping-item">
+            <div class="items-list">
+                <img class="img-items" src="/img/girl1.jpg" alt="">
+                <div class="items-body">
+                    <p class="name-size">Clothing (G)</p>
+                    <p class="name-info">NIKE PRO Older Kids’ (Girls’) Training Shorts</p>
+                    <p class="price">519,000 đ</p>
+                    <button>Mua Hàng</button>
+                </div>            
+            </div>
+
+            <div class="items-list">
+                    <img class="img-items" src="/img/girl2.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Clothing (G)</p>
+                        <p class="name-info">NIKE PRO Older Kids’ (Girls’) Short-Sleeve Top</p>
+                        <p class="price">519,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+    
+                <div class="items-list">
+                    <img class="img-items" src="/img/girl3.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Gear (G)</p>
+                        <p class="name-info">NIKE GRAPHIC</p>
+                        <p class="price">299,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+    
+    
+                <div class="items-list">
+                    <img class="img-items" src="/img/girl4.jpg" alt="">
+                    <div class="items-body">
+                        <p class="name-size">Gear (G)</p>
+                        <p class="name-info">NIKE BRASILIA</p>
+                        <p class="price">619,000 đ</p>
+                        <button>Mua Hàng</button>
+                    </div>            
+                </div>
+
+            
+            </div>
+    </div>
+    <!-- Javascript của Slide -->
+    <script>
+        //khai báo biến slideIndex đại diện cho slide hiện tại
+        var slideIndex;
+        // KHai bào hàm hiển thị slide
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+       
+            slides[slideIndex].style.display = "block";  
+            dots[slideIndex].className += " active";
+            //chuyển đến slide tiếp theo
+            slideIndex++;
+            //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+            if (slideIndex > slides.length - 1) {
+              slideIndex = 0
+            }    
+            //tự động chuyển đổi slide sau 5s
+            setTimeout(showSlides, 5000);
+        }
+        //mặc định hiển thị slide đầu tiên 
+        showSlides(slideIndex = 0);
+       
+       
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+      </script>
+      <!-- End Javascript của Slide -->           
+        <div data-aos="fade-up" id="footer">
+            <div class="footer-element">
+                    <ul class="find-store"> <a href="">FIND A STORE</a>
+                        <li class="contact-store"> <a href="https://accounts.google.com/">SIGN UP FOR EMAIL</a></li>
+                        <li class="contact-store"> <a href="">BECOME A MEMBER</a></li>
+                        <li class="contact-store"> <a href=""> SITE FEEDBACK</a></li>
+                    </ul>
+                    <div class="help">
+                        <h3> GET HELP</h3>
+                        <p><a href="">Order Status</a></p>
+                        <p><a href="">Delivery</a></p>
+                        <p><a href="">Returns</a></p>
+                        <p><a href="">Payment Options</a></p>
+                        <p><a href="">Contact Us</a></p>
+                        <p><a class="tel" href="tel:+84 879-259-755">+84 879-259-755</a></p>
+                    </div>
+                    <div class="about">
+                        <h3>ABOUT MY STORE</h3>
+                        <p><a href="">News</a></p>
+                        <p><a href="">Careers</a></p>
+                        <p><a href="">Investores</a></p>
+                    </div>
+
+
+                    <div class="icons-contact">
+                        <div class="icons-brands">
+                                <a href="https://www.facebook.com/profile.php?id=100044646572165">
+                                    <i class="facebook fa-brands fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="icons-brands">
+                                <a href="https://www.instagram.com/">
+                                    <i class="instagram fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="icons-brands"> 
+                                <a href="https://www.youtube.com/">
+                                    <i class="youtube fa-brands fa-youtube"></i>
+                                </a>
+                            </div>
+                            <div class="icons-brands">
+                                <a href="https://www.google.com/">
+                                    <i class="google fa-brands fa-google"></i>
+                                </a>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+
+        <!-- Phần modal của menu bar -->
+        <div class="js-modal modal">
+            <div class="modal-container js-modal-container">
+                <header class="modal-header">
+                        <input type="search" placeholder="Search">
+                    </header>
+
+                <div class="modal-main">
+                    <a href="">
+                        MEN
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <a href="">
+                        WOMEN
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <a href="">
+                        BOYS
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <a href="">
+                        GIRLS
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <a href="">
+                        STORE
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <a href="">CONTACT US</a>
+                    <a href="">ĐĂNG NHẬP</a>
+                </div>
+
+                <div class="modal-footer">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </div>
+
+                <div class="modal-close js-modal-close">
+                    <i class="close-btn fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Kết thúc phần menu bar -->
+
+        <div class="js-login-modal modal-login">
+            <div class="modal-login-container js-login-container">
+                <div class="modal-sign js-sign">
+                    <h2>Sign Up</h2>
+                    <div class="input">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name User">
+                    </div>
+                    <div class="input">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" placeholder="Password Email">
+                    </div>
+                    <div class="input">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="text" placeholder="Password User">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <span>
+                            I agree all statements in <a href="">Terms of service</a></span>
+                    </div>
+                    <div class="button">
+                        <button>REGISTER</button>
+                    </div>
+                </div>
+
+                <div class="login-close js-login-close">
+                    <i class="close-btn fa-solid fa-xmark"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- AOS Amimation -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+                <!-- Phần của mobile -->
+    <script>
+        // Tạo một biến hằng số lưu vào cái icon bar
+        const mobileBtn = document.querySelector ('.js-mobile-menu')
+        // Tạo một biến hằng số vào Modal
+        const modal = document.querySelector ('.js-modal')
+        // Tạo một biến hằng số vào nút close
+        const modalClose = document.querySelector ('.js-modal-close')
+        // Tạo một sự kiện lắng nghe click vào icon bar
+        mobileBtn.addEventListener('click', showMenumobile)
+        // Tạo một sự kiện lắng nghe click vào nút close
+        modalClose.addEventListener('click', hideMenumobile)
+        // Tạo một biến khi click vào icon bar thì hiện lên modal vừa tạo
+        function showMenumobile () {
+            modal.classList.add('open')
+        }
+
+        // Tạo một biến khi click vào nút close thì ẩn đi modal vừa tạo
+        function hideMenumobile () {
+            modal.classList.remove('open')
+        }
+
+        // Phần click vào khoảng không nó sẽ tự đóng
+        modal.addEventListener('click', hideMenumobile)
+        
+        // Phần ngăn chặn hiệu ứng nổi bọt khi ấn vào modal
+        const modalContainer = document.querySelector('.js-modal-container')
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+
+    <!-- Phần của PC -->
+    <script>
+        const loginBtn = document.querySelector ('.js-login')
+        const loginModal = document.querySelector ('.js-login-modal')
+        const loginClose = document.querySelector ('.js-login-close')
+        loginBtn.addEventListener('click', showMenulogin)
+        loginClose.addEventListener('click', hideMenulogin )
+        function showMenulogin () {
+            loginModal.classList.add('open')
+        }
+
+        function hideMenulogin () {
+            loginModal.classList.remove('open')
+        }
+    </script>
+
+</html>
